@@ -1,1 +1,10 @@
-Hey there! This is Merge Conflict. HaHaHa!
+pipeline {
+    agent any 
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'Hello world!' 
+            }
+        }
+    }
+}
